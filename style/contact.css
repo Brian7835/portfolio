@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header #logopageacceuil
+{
+    width: 502px;
+    height: 135px;
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 50px;
+    /* ajout lien clickable page acceuil*/
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+#hero
+{
+    background-image: url("../images/antoine-barres-jay5BqVyf5A-unsplash.jpg");
+    display: block;
+    margin: auto;
+    height: 400px;
+    background-position: center;
+    background-size: cover ; 
+    text-align: center;
+}
+
+#hero h1
+{
+    color:white;
+    font-weight: 900;
+}
+div>h1
+{
+    color:white;
+    font-family: 'arial', sans-serif ;
+    font-size: 60px;
+    text-align: center; 
+    line-height: 400px;
+    font-weight: normal;
+}
+
+main h1
+{
+    font-family: 'arial', sans-serif;
+}
+
+#contact-box
+{
+    background: white;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+input, textarea
+{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+textarea
+{
+    height: 200px;
+}
+
+/* Bas de page*/
+footer
+{
+    background-color: black;
+    height: 167px;
+}
+footer ul
+{
+    margin-top: 70px;
+    margin-left: 25px;
+    margin-bottom: 70px;
+    padding: 0px;
+    display: inline-block;
+}
+footer li
+{
+    list-style-type: none;
+    float: left;
+}
+footer li a
+{
+    color:white;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif ;
+    font-size: 16px;
+}
+footer li:nth-child(2)
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+footer div
+{
+    width:990px;
+    margin:auto;
+}
+footer img
+{
+    float: right;
+    margin-right: 25px;
+    margin-top: 50px;
+}
