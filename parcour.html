@@ -5,11 +5,17 @@
     <title>Brian Danetz</title>
     <link rel="stylesheet" href="style/parcour.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CPlayfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 <body>
     <header>
-        <img src="images/logobriandanetz.png" id="logopageacceuil">
+		<img src="images/logobriandanetz.png" id="logopageacceuil">
+		<ul>
+            <li id=#home><a href="/" >Home</a></li>
+            <li id="gallery"><a href="parcour.html" >Parcours</a></li>
+            <li id="contact"><a href="contact.html" >Contact</a></li>
+        </ul>
     </header>
     <div id="hero">
             <h1>Mon parcours</h1>
@@ -60,8 +66,29 @@
 						<li id=#home><a href="/" >Home</a></li>
 						<li id="gallery"><a href="parcour.html" >Parcours</a></li>
 						<li id="contact"><a href="contact.html" >Contact</a></li>
-		            </ul>
-		            <img src="images/logotype.png">
+					</ul>
+					<i class="material-icons" id="myBtn" onclick="topFunction()" >keyboard_arrow_up</i>
 		        </div>
 		</footer>
 </body>
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+</script>
