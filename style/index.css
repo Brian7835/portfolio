@@ -37,7 +37,6 @@ div>h1
     color:white;
     font-family: 'arial', sans-serif ;
     font-size: 60px;
-    /font-family: 'Open Sans', sans-serif;/
     text-align: center; 
     line-height: 400px;
     font-weight: normal;
@@ -83,7 +82,7 @@ main>div>p:nth-child(2)
     margin-bottom: 22px;
 }
 
-/Gestion 2eme bloc droite/
+/* Gestion 2eme bloc droite */
 main div h5
 {
     margin-top: 50px;
@@ -168,4 +167,3 @@ footer img
     margin-right: 25px;
     margin-top: 50px;
 }
-    </style>
