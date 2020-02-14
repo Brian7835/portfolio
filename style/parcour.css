@@ -1,11 +1,11 @@
-       html, body {
+html, body {
     margin: 0;
     padding: 0;
 }
 header #logopageacceuil
 {
-    width: 502px;
-    height: 135px;
+    width: 50%;
+    height: 50%;
     position: relative;
     display: block;
     margin: auto;
@@ -36,13 +36,18 @@ header li:nth-child(2)
 }
 #hero
 {
-    background-image: url("../images/pc.jpg");
+    background-image: url("../images/parcours2.jpg");
     display: block;
     margin: auto;
     height: 400px;
     background-position: center;
     background-size: cover ; 
     text-align: center;
+}
+#hero h1
+{
+    color:white;
+    font-weight: 900;
 }
 div>h1
 {
@@ -144,6 +149,7 @@ footer
     background-color: black;
     width: auto;
     height: 167px;
+    margin-top: 5%;
 }
 footer ul
 {
@@ -182,6 +188,25 @@ footer img
     margin-top: 50px;
 }
 
+.titre{
+    margin-top: 10%;
+}
+.pictures {
+    display: flex;
+    width: 100%;
+    margin-left: 5%;
+}
+.pictures2 {
+    display: flex;
+    width: 100%;
+    margin-left: 5%;
+}
+.pictures3 {
+    display: flex;
+    width: 100%;
+    margin-left: 5%;
+}
+
 .pictures {
     width: 990px;
     margin: auto;
@@ -202,6 +227,7 @@ footer img
 .pictures div {
     margin-left: -30px;
 }
+
 .clear {
     clear: both;
 }
@@ -211,7 +237,7 @@ body {
     font-size: 20px;
   }
   
-  #myBtn {
+#myBtn {
     border-radius: 50%;
     display: none;
     position: fixed;
@@ -227,6 +253,28 @@ body {
     border-radius: 4px;
   }
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #555;
   }
+
+.logo {
+    text-align: center;
+}
+
+.logo>a {
+    margin-right: 3%;
+    padding-bottom: 3%;
+}
+
+.logobrian {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.coord {
+    float: right;
+    padding-top: 2.5%;
+    color: white; 
+    font-size: 16px;
+}
