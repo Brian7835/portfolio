@@ -192,7 +192,11 @@ body {
     margin-left: 30%;
 }
 
-/* .form-check {
-    margin-bottom: 2%;
-    width: 30%;
-} */
+.form-check {
+    font-size: medium;
+} 
+
+.btn {
+    margin-left: auto;
+    margin-top: 2%;
+}
