@@ -3,48 +3,64 @@
 <head>
     <meta charset="utf8">
     <title>Brian Danetz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style/parcour.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CPlayfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 <body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="parcour.html">Parcours</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
     <header>
-    <a href="index.html">
-		<img src="images/logobriandanetz.png" id="logopageacceuil"></a>
-		<ul>
-            <li id=#home><a href="index.html" >Home</a></li>
-            <li id="gallery"><a href="parcour.html" >Parcours</a></li>
-            <li id="contact"><a href="contact.html" >Contact</a></li>
-        </ul>
+      <a href="index.html">
+      <img src="images/logobriandanetz.png" id="logopageacceuil"></a>
     </header>
+
     <div id="hero">
-            <h1>Mon parcours</h1>
+      <h1>Mon parcours</h1>
     </div>
 
+    <!--flip card-->
     <div class="h3">
     	<h3>Experiences professionnelles</h3>
-    	<div class="pictures">
+    	<div class="pictures1 justify-content-between">
 	    	<img src="images/gallery-picture-1.jpg">
 	    	<img src="images/gallery-picture-2.jpg">
 	    	<img src="images/gallery-picture-3.jpg">
 	    	<div class="clear"></div>
     	</div>
     </div>
- 
 
-    <div>
+    <div class="h3">
 	    <h3>Compétences</h3>
-    	<div class="pictures">
+    	<div class="pictures2">
 	    	<img src="images/gallery-picture-1.jpg">
 	    	<img src="images/gallery-picture-2.jpg">
 	    	<img src="images/gallery-picture-3.jpg">
     	</div>
     </div>
 
-<div>
+    <div class="h3">
 	    <h3>Formations</h3>
-    	<div class="pictures">
+    	<div class="pictures3">
 	    	<img src="images/formations/photo-1523050854058-8df90110c9f1.jpg">
 	    	<img src="images/formations/photo-1519070994522-88c6b756330e.jpg">
 	    	<img src="images/formations/photo-1462536943532-57a629f6cc60.jpg">
@@ -52,30 +68,36 @@
     	</div>
     </div>
 
+    <div class="video_C_A">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/rwn5QWsk1zo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
     <div class="logobrian">
       <img src="images/logobriandanetz2.png" alt="logo">
-   </div>
+    </div>
 
     <div class="logo" style="display: block; margin: auto;">
       <a href="https://www.linkedin.com/in/brian-danetz-374222b7/"><img style="width: 3%; height: auto;" src="images/logo_linkedin_vector.png"></a>
-      <a href="https://www.linkedin.com/in/brian-danetz-374222b7/"><img style="width: 3%; height: auto;" src="images/logo_tweeter_vector.jpg"></a>
-      <a href="https://www.linkedin.com/in/brian-danetz-374222b7/"><img style="width: 3%; height: auto;" src="images/logo_insta_vector.png"></a>
-      <a href="https://www.linkedin.com/in/brian-danetz-374222b7/"><img style="width: 3%; height: auto;" src="images/logo-facebook-coins-arrondis_318-9850.jpg"></a>
+      <a href="https://twitter.com/BDanetz"><img style="width: 3%; height: auto;" src="images/logo_tweeter_vector.jpg"></a>
+      <a href="https://www.instagram.com/briandanetz/?hl=fr"><img style="width: 3%; height: auto;" src="images/logo_insta_vector.png"></a>
+      <a href="https://www.facebook.com/brian.danetz"><img style="width: 3%; height: auto;" src="images/logo-facebook-coins-arrondis_318-9850.jpg"></a>
     </div>
 
 
 		<footer>
-		        <div>
-		            <ul>
+		    <div>
+		      <ul>
 						<li id=#home><a href="index.html" >Home</a></li>
 						<li id="gallery"><a href="parcour.html" >Parcours</a></li>
 						<li id="contact"><a href="contact.html" >Contact</a></li>
           </ul>
           <span class="coord"><p>Brian Danetz <br> brian.danetz@gmail.com <br> 06.58.24.48.73 <br> 68, rue de Vern <br> 35200 Rennes</p></span>
 					<i class="material-icons" id="myBtn" onclick="topFunction()" >keyboard_arrow_up</i>
-		        </div>
+		    </div>
     </footer>
-    
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 <script>
     //Get the button
