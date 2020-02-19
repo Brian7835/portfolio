@@ -85,7 +85,7 @@ main div:first-child
 
 main>div>h3
 {
-    font-family: 'Playfair Display', serif ;
+    font-family: 'open Sans', serif ;
     font-size : 30px;
     height: 30px;
     margin-top: 50px ;
@@ -126,7 +126,7 @@ main div img
     width: 75%;
     height: 75%;
     float: left;
-    border-radius: 20%;
+    border-radius: 10%;
 }
 main div img:nth-child(odd)
 {
@@ -142,6 +142,7 @@ main div img:nth-child(odd)
     margin-bottom: 80px;
     
 }
+/*
 #submain a
 {
     background-color: black;
@@ -257,8 +258,40 @@ body {
     padding-top: 2.5%;
     color: white; 
     font-size: 16px;
+    padding-right: 10%;
 }
 
 #pop_up {
     margin-left: 10%;
 }
+
+.btn-rounded-white{
+    display:inline-block;
+    color:black;
+    padding:10px 20px;
+    border:3px solid black;
+    border-radius:10px;
+    transition:.5s ease all
+}
+.btn-rounded-white:hover{
+    color:white;
+    background:black;
+    text-decoration:none
+}
+.btn-rounded-white1{
+    display:inline-block;
+    color:black;
+    padding:10px 20px;
+    border:3px solid black;
+    border-radius:10px;
+    transition:.5s ease all
+}
+.btn-rounded-white1:hover{
+    color:white;
+    background:black;
+    text-decoration:none
+}
+
+.description > a {
+    margin-top: 4%;
+} 
