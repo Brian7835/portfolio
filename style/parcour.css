@@ -206,8 +206,9 @@ main div img:nth-child(odd)
 .video_C_A > iframe {
     display: block;
     margin: auto;
-    margin-top: 3%;
+    padding-top: 5%;
     width: 50%;
+    height: 400px;
 }
 
 .clear {
