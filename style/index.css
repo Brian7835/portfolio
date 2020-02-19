@@ -64,6 +64,38 @@ div>h1
     line-height: 400px;
     font-weight: normal;
 }
+
+.description > a {
+    margin-top: 4%;
+} 
+
+.btn-rounded-white{
+    display:inline-block;
+    color:black;
+    padding:10px 20px;
+    border:3px solid black;
+    border-radius:10px;
+    transition:.5s ease all
+}
+.btn-rounded-white:hover{
+    color:white;
+    background:black;
+    text-decoration:none
+}
+.btn-rounded-white1{
+    display:inline-block;
+    color:black;
+    padding:10px 20px;
+    border:3px solid black;
+    border-radius:10px;
+    transition:.5s ease all
+}
+.btn-rounded-white1:hover{
+    color:white;
+    background:black;
+    text-decoration:none
+}
+
 main
 {
     display:flex;
@@ -139,18 +171,78 @@ main div img:nth-child(odd)
     margin: auto;
     text-align: center;
     margin-top:50px;
-    margin-bottom: 80px;
-    
+    margin-bottom: 80px;    
 }
-/*
-#submain a
-{
-    background-color: black;
-    padding: 20px;
-    font-family: 'Playfair Display', serif ;
-    text-decoration: none;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+#myBtn {
+    border-radius: 50%;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
     color: white;
-    border-radius:10px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+#myBtn:hover {
+    background-color: #555;
+  }
+
+/* Carrousel*/
+#carouselExampleCaptions {
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding-bottom: 3%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-20%);
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo>a {
+    margin-right: 3%;
+    padding-bottom: 3%;
+}
+
+.logobrian {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+/* coordonnées */
+.coord {
+    float: right;
+    padding-top: 2.5%;
+    color: white; 
+    font-size: 16px;
+    padding-right: 10%;
+}
+
+/* bouton pop-up */
+#pop_up {
+    margin-left: 10%;
 }
 
 /* Bas de page*/
@@ -197,101 +289,4 @@ footer img
     margin-top: 50px;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-  }
-  
-  #myBtn {
-    border-radius: 50%;
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-  }
-  
-  #myBtn:hover {
-    background-color: #555;
-  }
 
-#carouselExampleCaptions {
-    display: block;
-    margin: auto;
-    width: 80%;
-    padding-bottom: 3%;
-}
-
-.carousel-caption {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-20%);
-    font-family: sans-serif;
-    text-align: left;
-}
-
-.logo {
-    text-align: center;
-    margin-top: 50px;
-}
-
-.logo>a {
-    margin-right: 3%;
-    padding-bottom: 3%;
-}
-
-.logobrian {
-    text-align: center;
-    margin-bottom: 5%;
-    margin-top: 5%;
-}
-
-.coord {
-    float: right;
-    padding-top: 2.5%;
-    color: white; 
-    font-size: 16px;
-    padding-right: 10%;
-}
-
-#pop_up {
-    margin-left: 10%;
-}
-
-.btn-rounded-white{
-    display:inline-block;
-    color:black;
-    padding:10px 20px;
-    border:3px solid black;
-    border-radius:10px;
-    transition:.5s ease all
-}
-.btn-rounded-white:hover{
-    color:white;
-    background:black;
-    text-decoration:none
-}
-.btn-rounded-white1{
-    display:inline-block;
-    color:black;
-    padding:10px 20px;
-    border:3px solid black;
-    border-radius:10px;
-    transition:.5s ease all
-}
-.btn-rounded-white1:hover{
-    color:white;
-    background:black;
-    text-decoration:none
-}
-
-.description > a {
-    margin-top: 4%;
-} 
